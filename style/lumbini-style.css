@@ -1,0 +1,27 @@
+body{
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.image{
+    text-align: center;
+    margin: 20px 0;
+
+
+}
+ .desc{
+    text-align: center;
+    margin: 20px 0;
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.image img{
+    height: 400px;
+    width: 800px;
+}
+
+.text p{
+    text-align: justify;
+}
