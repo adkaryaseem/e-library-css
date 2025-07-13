@@ -74,6 +74,10 @@ header{
     color: chartreuse;
 }
 
+.nav ul li .fa-magnifying-glass{
+    display: none;
+}
+
 .nav button{
     height: 35px;
     width: 120px;
@@ -91,11 +95,63 @@ header{
 }
 
 .footer{
+    height: 40px;
     background-color: bisque;
-    padding: 10px 0;
-    margin: 5px;
+    margin: 0 0 10px 0;
     border-radius: 10px;
+}
+
+.end{
+    padding: 10px;
+    justify-content: center;
     text-align: center;
     font-size: 20px;
     color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .logo img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .title{
+        margin: 2px 5px 3px 1px;
+        font-size: 18px;
+    }
+
+    .title1{
+        width: 100px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .title2{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .nav input{
+        display: none;
+    }
+    
+    .nav ul li .fa-magnifying-glass{
+        display: inline-block;
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul li{
+        margin: 7px;
+    }
+
+    .nav a{
+        font-size: 18px;
+    }
+
+    .nav button{
+        width: 75px;
+        font-size: 15px;
+    }
+    
 }
